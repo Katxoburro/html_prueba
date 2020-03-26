@@ -113,32 +113,59 @@
         </table>
     </center>
 
+    <!-- TODO: https://www.webhostingsecretrevealed.net/es/html-guide-for-beginners/ -->
 
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <form action="#">
-        <label para="firstname">Nombre:</label>
-        <input type="text" id="firstname">
+    <form action="#">        
+        <label for="firstname">NOMBRE:</label>
+        <input type="text" name="firstname" id="firstname">
         <br>
-        <label for="lastname"> Apellido: </label> 
-        <input type="text" id="lastname">
         <br>
-        <label for="bio"> Breve biografía:</label> 
-        <textarea id="bio" rows="10" cols=" 30 " placeholder=" Ingrese su biografía aquí ... "> </textarea>
+        <label for="lastname">APELLIDOS:</label>
+        <input type="text" name="lastname" id="lastname">
         <br>
-
+        <br>
         <label> Género: </label>
-        <label for=" male "> Male </label>
+        <label for="male">MASCULINO</label>
         <input type="radio" name="gender" id="male">
-        <label for="female"> Female </label>
+        <label for="female">FEMENINO</label>
         <input type="radio" name="gender" id="female">
         <br>
         <br>
+        <label for="address">DIRECCIÓN:</label>
+        <input type="text" name="address" id="address">
+        <br>
+        <br>
+        <label for="province">PROVINCIA:</label>
+        <input type="text" name="province" id="province">
+        <br>
+        <br>
+        <label for="city">LOCALIDAD:</label>
+        <input type="text" name="city" id="city">
+        <br>
+        <br>
+        <label for="country">PAÍS:</label>
+        <input type="text" name="country" id="country">
+        <br>
+        <br>
         <input type="submit" value="Confirmar cambios">
-    <form>
+        <br>
+        <button type="submit">GUARDAR</button>
 
-    <!-- TODO: https://www.webhostingsecretrevealed.net/es/html-guide-for-beginners/ -->
-
-
+        <!-- 
+            firstname: "ESTEBAN",
+            lastname: "SORIANO",
+            gender: "MASCULINO",
+            address: "C/ PEZ, 33",
+            province: "GUADALAJARA",
+            city: "GUADALAJARA",
+            country: "ESPAÑA"
+         -->
+    </form>
 
 
 
