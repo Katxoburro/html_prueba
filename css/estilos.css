@@ -1,0 +1,67 @@
+body {
+  padding-left: 200px;
+  color: rgb(163, 14, 14);
+  background-color: rgba(135, 104, 160, 0.137);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ul.navbar {
+  position: absolute;
+  width: 156px;
+  top: 0;
+  left: 23px;
+  background-color: #56ff00d4;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.navbar li {
+  background: white;
+  margin: 12px 0;
+  padding: 6px;
+  border-right: 2px solid black
+}
+
+ul.navbar a {
+  text-decoration: none
+}
+
+ul.navbar a:hover {
+  color: rgb(255, 0, 0)
+}
+
+ul.navbar a:active {
+  color: #00ff37;
+}
+
+address {
+  padding: 4px 11px 6px 0;
+  text-align: right;
+  border: 1px solid #ff920b;
+  box-sizing: border-box;
+  width: 22%;
+  margin: 0 0 0 78%;
+}
+
+h1 {
+  font-family: Helvetica, 'Geneva', Arial, 'SunSans-Regular', sans-serif;
+}
+
+.prueba_parrafo {
+  background-color: blueviolet;
+}
+
+.parrafo_general {
+  text-orientation: sideways;
+  line-height: 40px;
+}
+
+.pruebaEstilosId{
+  color: #00ff37;
+}
+/* esto se utiliza poco: */
+#pruebaEstilosId{
+  font-size: 20px;
+  color: darkturquoise;
+}
